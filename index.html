@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rumahost AI Image Analyzer</title>
+</head>
+
+<body>
+  <main>
+    <h1>Rumahost AI Image Analyzer</h1>
+    <form>
+      <div class="image-picker">
+        <input type="file" id="fileInput" name="file">
+        <!-- <label class="image-choice">
+          <input type="radio" checked name="chosen-image" value="/baked_goods_1.jpg">
+          <img src="/baked_goods_1.jpg">
+        </label>
+        <label class="image-choice">
+          <input type="radio" name="chosen-image" value="/baked_goods_2.jpg">
+          <img src="/baked_goods_2.jpg">
+        </label>
+        <label class="image-choice">
+          <input type="radio" name="chosen-image" value="/baked_goods_3.jpg">
+          <img src="/baked_goods_3.jpg">
+        </label> -->
+      </div>
+      <div class="prompt-box">
+        <label>
+          <input name="prompt" placeholder="Enter instructions here" type="text"
+            value="Ask something or everything about the image">
+        </label>
+        <button type="submit">Go</button>
+      </div>
+    </form>
+    <p class="output">(Results will appear here)</p>
+  </main>
+
+  <script type="module" src="/main.js"></script>
+</body>
+<footer>
+  <p>AI ini mungkin menampilkan info yang kurang akurat, jadi periksa kembali responsnya. <br><a href="https://support.google.com/gemini?p=privacy_notice" target="_blank">Privasi Anda & Privasi Gemini</a></p>
+  <p></p>
+  <p>Model: Gemini 1.5 Flash | <a href="https://github.com/hoed/ai-web" target="_blank">Project Source Code</a></p>
+  <p>&copy; 2024 Rumahost AI. All Right Reserved.</p>
+  
+  <p></p> 
+</footer>
+
+</html>
